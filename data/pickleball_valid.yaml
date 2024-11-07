@@ -1,0 +1,14 @@
+path: datasets/pickleball_valid
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['-ball-']
+
+roboflow:
+  workspace: wapur-vision-2024-igpwy
+  project: wapur2024pickleballvalidation
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wapur-vision-2024-igpwy/wapur2024pickleballvalidation/dataset/1
